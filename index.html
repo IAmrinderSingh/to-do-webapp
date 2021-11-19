@@ -1,24 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width,initial-scale=1.0">
-        <meta name="keywords" content="HTML,CSS,Javascript">
-        <link rel="stylesheet" href="assets/css/sheet.css">
-        <title>To-do</title>
-    </head>
-    <body>
-        <!-- heading section -->
-        <h4>To-do</h4>
-        <div id="inputcontainer">
-            <input id="inputtask" type="text" placeholder="Add title here...">
-            <br>
-            <textarea name="name" placeholder="Add task here..."></textarea>
-            <br>
-            <button id="add">Add</button>
-            <button id="clear">Clear</button>
-        </div>
-        <div class="taskscontainer"></div>
-    </body>
-    <script src="assets/js/style.js"></script>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta namr="keywords" content="HTML,CSS,Javascript">
+    <meta name="author" content="IAmrinderSingh">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css" integrity="sha512-BnbUDfEUfV0Slx6TunuB042k9tuKe3xrD6q4mg5Ed72LTgzDIcLPxg6yI2gcMFRyomt+yJJxE+zJwNmxki6/RA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" media="(max-width:910px)" href="assets/css/smallscreen.css">
+    <link rel="stylesheet" media="(min-width:910px)" href="assets/css/widescreen.css">
+    <title>To-Do</title>
+</head>
+<body>
+    <!-- heading section -->
+    <h4>To-do</h4>
+    <!-- text and buttons section-->
+    <div id=inputcontainer >
+        <input id="inputlabel" type="text" placeholder=" Add title here..." >
+        <br>
+        <textarea name="name" placeholder=" Add task here..."></textarea>
+        <br>
+        <button id="add">Add</button>
+        <button id="clear">Clear</button>
+    </div>
+    <!-- ouptut section -->
+    <div class="taskscontainer">
+    </div>
+</body>
+    <script src="assets/js/script.js"></script>
 </html>

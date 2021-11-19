@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+
+*,::after,::before{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: #000000;
+    font-size: 20px;
+    font-family: 'Audiowide', cursive;
+}
+
+/* heading */
+
+h4{
+    color: #A6395B;
+    position: relative;
+    margin-left: 90px;
+    font-size: 450%;
+    font-weight:lighter; 
+}
+
+#inputcontainer{
+    float:left;
+    margin-left: 90px;
+    margin-top: 20px;
+    text-align: center;
+    width: 35%;
+}
+
+#inputlabel{
+    margin-bottom: 55px;
+    width: 100%;
+    color: white;
+    height: 45px;
+    border:4px solid #A6395B;
+}
+
+textarea{
+    color: white;
+    border:4px solid #A6395B;
+    width: 100%;
+    height: 425px;
+}
+
+#inputcontainer button{
+    color:#A6395B;
+    margin-top: 10px;
+    margin-left: 5px;
+    padding: 10px;
+}
+
+.aligncenter{
+    text-align: center;
+    line-height: 425px;
+}
+
+.taskscontainer{
+    float: right;
+    height: 50%;
+    width: 42%;
+    margin-top: 130px;
+    margin-right: 60px;
+    color: white;
+    border:4px solid #A6395B;
+}
+
+textarea,#inputlabel,#inputcontainer button{
+    background-color: black;
+}
+
+textarea,#inputlabel,#inputcontainer button,.taskscontainer{
+    font-family: inherit;
+    font-size: 110%;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+p{
+    color: white;
+}
+
+i{
+    color: rgb(214, 24, 24);
+    cursor: pointer;
+}
+
+table{
+    border: none;
+    font-size: 110%;
+    width: 100%;
+}
+th{
+    padding: 10px 20px;
+    border: none;
+    color: #A6395B;
+    font-size: 110%;
+}
+td{
+    padding: 10px 20px;
+    color: white;
+    text-align: center;
+}
