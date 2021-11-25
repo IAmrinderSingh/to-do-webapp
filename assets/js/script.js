@@ -91,7 +91,7 @@ clear.addEventListener('click',function(){
 })
 
 document.addEventListener('keydown',function(e){
-    if(e.key==='Enter'){
+    if(e.ctrlKey && e.key==='Enter'){
         addtasks();
     }
 });
